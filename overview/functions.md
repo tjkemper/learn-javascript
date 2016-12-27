@@ -14,10 +14,30 @@
 * functions have scope
 * nothing else has scope
   * there is no block scope in JavaScript
-  * this means, define your variables at the beginning of the function
+  * this means you should define your variables at the beginning of the function
 
 ### closure
+* this is how we achieve encapsulation
+* basically a function in a function
+```
+function abc() {
+  function def() {}
+}
+```
+* inner function retains its *environment*
+```
+function abc () {
+  var str = "hello from outer function";
+  function def() {
+    console.log(str);
+  }
+  return def;
+}
 
+abc()();
+```
+
+* Challenge: write an `add` function such that `add(3,4)` and `add(3)(4)` both return `7`
 
 
 ### method
@@ -51,6 +71,18 @@ someObj.someFn(); //inside of someFn, 'this' will point to someObj
 ### constructor form
 * when a function is called with the `new` operator, a new object is created and assigned to `this`
 * if there is no explicit return statement, then `this` will be returned
+* **best practice** is to capitalize functions that are meant to be constructors
+  * see below example for why
+```
+var Person = function(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+var john = Person("John", 28);
+console.log(john);
+```
+
 
 ### apply form
 * looks weird
