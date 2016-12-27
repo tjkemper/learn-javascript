@@ -2,7 +2,7 @@
 * arithmetic + - * / %
 * comparison == != <> <= >= === !==
 * logical && || !
-* bitwise & | ^ >> >>> << 
+* bitwise & | ^ >> >>> <<
 * ternary ?:
 
 ### arithmetic
@@ -20,7 +20,7 @@ x === y //false
 
 * equality operators (==, !=) do **type coersion**
 * **always use identity operators (===, !==)
- 
+
 ### logical
 * because values are truthy or falsy, we can use logical operators in neat ways
 * the result of a logical operator does not need to be `true` or `false`
@@ -36,7 +36,7 @@ if(a) {
   return a;
 }
 
-//using default operator
+//using guard operator
 return a && a.member;
 ```
 
@@ -101,4 +101,3 @@ var c = true;
 var d = false;
 var x = a || b ? c && d ? 1 : 2 : 3;
 ```
-
