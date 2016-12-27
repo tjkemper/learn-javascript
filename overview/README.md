@@ -6,7 +6,7 @@
 [objects](objects.md)  
 [arrays](arrays.md)  
 [functions](functions.md)  
-[inheritance](inheritance.md) 
+[inheritance](inheritance.md)  
 [watch out](watch-out.md)
 
 
