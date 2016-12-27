@@ -8,6 +8,7 @@
 [functions](functions.md)  
 [inheritance](inheritance.md)  
 [watch out](watch-out.md)
+[other](other.md)
 
 
 
