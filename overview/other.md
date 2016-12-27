@@ -15,7 +15,7 @@ var someFn = function() {
 
 # typeof
 
-| typeof <value> |    result    |
+| typeof |    result    |
 |:--------------:|:------------:|
 |     object     |   "object"   |
 |    function    |  "function"  |
