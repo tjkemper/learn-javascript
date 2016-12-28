@@ -45,7 +45,7 @@ abc()();
 
 ### invocation
 * if a function is called with too many arguments, the extra arguments are ignored
-* if a function is called with too few arguments, the missing values with be undefined
+* if a function is called with too few arguments, the missing values will be undefined
 * no type checking on parameters
 * every function gets an `arguments` parameter
 * every function gets a `this` parameter, but what it points to depends on the **invocation form**
