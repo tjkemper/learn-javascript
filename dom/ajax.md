@@ -8,7 +8,7 @@
 * AJAX has four steps
   1. create object
   +  define onreadystatechange function
-  +  open request *(can configure HTTP method and url)
+  +  open request *(can configure HTTP method and url)*
   +  send request *(can send data in request body)*
 * naive example - do not run
 ```
