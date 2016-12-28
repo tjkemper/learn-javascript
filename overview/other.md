@@ -1,6 +1,9 @@
 # other
 
-# use strict
+### garbage collection
+* JavaScript has a garbage collector
+
+### use strict
 * put string literal `"use strict"` at the top of a scope to enforce rules
 
 ```
@@ -13,7 +16,7 @@ var someFn = function() {
 
 ```
 
-# typeof
+### typeof
 
 | typeof |    result    |
 |:--------------:|:------------:|
@@ -27,33 +30,33 @@ var someFn = function() {
 |    undefined   |  "undefined" |
 
 
-# eval
+### eval
 * can evaluate a string as code
 * do not do this
 
-# build-in wrapper types
+### build-in wrapper types
 * JavaScript copied Java wrapper types: Integer, Boolean, etc.
 * do not use these
 
-# global
+### global
 * there is always a global object
 * it does not have a name, but it is there
 * when JavaScript is running in a browser, the global object does have a name: `window`
 
-# global variables are evil
+### global variables are evil
 * use of global namespace must be minimized
 
-# Date
+### Date
 * there is a date object
 
-# RegEx
+### RegEx
 * we have regular expressions
 
-# threads
+### threads
 * language is neutral on threads
 * most implementations do not have threads
 
-# exception handling
+### exception handling
 * `throw`, `try` and `catch` statements
 
 
