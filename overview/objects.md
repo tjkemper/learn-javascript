@@ -20,7 +20,7 @@ function Person(name, age) {
   this.age  = age;
 }
 
-var john = new Person();
+var john = new Person("John", 28);
 ```
 * `:` separates names and values
 * `,` separates pairs
