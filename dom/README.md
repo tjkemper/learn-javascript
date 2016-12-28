@@ -7,4 +7,5 @@
 [json](json.md)  
 [jquery](jquery.md)  
 
-
+* pokeapi example
+* GitHub Pages
