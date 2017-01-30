@@ -7,6 +7,10 @@
 * NaN
 * **objects**
 
+### Loosely Typed
+* Any of these types can be stored in a variable, or passed as a parameter to any function
+* the language is not *untyped*
+
 ### numbers
 * 64 bit floating point
 * floating point numbers are not accurate
