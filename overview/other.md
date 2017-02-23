@@ -11,9 +11,8 @@
 
 var someFn = function() {
   "use strict"
-
+  
 }
-
 ```
 
 ### typeof
@@ -58,5 +57,3 @@ var someFn = function() {
 
 ### exception handling
 * `throw`, `try` and `catch` statements
-
-

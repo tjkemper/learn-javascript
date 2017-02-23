@@ -19,12 +19,15 @@
 ### closure
 * this is how we achieve encapsulation
 * basically a function in a function
+
 ```
 function abc() {
   function def() {}
 }
 ```
+
 * inner function retains its *environment*
+
 ```
 function abc () {
   var str = "hello from outer function";
@@ -38,7 +41,6 @@ abc()();
 ```
 
 * Challenge: write an `add` function such that `add(3,4)` and `add(3)(4)` both return `7`
-
 
 ### method
 * a method is a function that belongs to an object
@@ -64,6 +66,7 @@ abc()();
 
 ### method form
 * `this` points to the object which was used during method invocation
+
 ```
 someObj.someFn(); //inside of someFn, 'this' will point to someObj
 ```
@@ -73,6 +76,7 @@ someObj.someFn(); //inside of someFn, 'this' will point to someObj
 * if there is no explicit return statement, then `this` will be returned
 * **best practice** is to capitalize functions that are meant to be constructors
   * see below example for why
+
 ```
 var Person = function(name, age) {
   this.name = name;
@@ -83,14 +87,7 @@ var john = Person("John", 28);
 console.log(john);
 ```
 
-
 ### apply form
 * looks weird
 * allows you to invoke a method while dynamically setting the object
 * `this` points to the object that you pass into the `apply` method
-
-
-
-
-
-

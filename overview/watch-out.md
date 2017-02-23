@@ -5,7 +5,7 @@
 
 ```
 var someFn = function() {
-  return 
+  return
   {
     name : "John",
     age  : 28
@@ -14,12 +14,13 @@ var someFn = function() {
 
 var john = someFn();
 console.log(john);
-
 ```
+
 * the battle of where to put the starting curly brace is over!
 
 ### hoisting
 * JavaScript *hoists* variable declarations to the top of their respective scopes
+
 ```
 var someFn = function() {
   str = "ALLO!";
@@ -28,13 +29,13 @@ var someFn = function() {
 }
 
 someFn();
-
 ```
 
 
 
 ### implied globals
 * if you use a variable and do not declare it, JavaScript assumes it must be a global variable
+
 ```
 var someFn = function() {
   str = "allo";
@@ -44,5 +45,3 @@ var someFn = function() {
 someFn();
 console.log(str);
 ```
-
-
