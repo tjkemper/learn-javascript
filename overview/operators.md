@@ -31,6 +31,7 @@ x === y //false
   * if first operand is *falsy*,  then return **first** operand
 
 ```
+
 //long version
 if(a) {
   return a.member;
