@@ -14,7 +14,6 @@
 ### numbers
 * 64 bit floating point
 * floating point numbers are not accurate
-
 ```
 var x = 0.3 - 0.2; // does not equal 0.1
 ```
@@ -47,10 +46,11 @@ var x = 0.3 - 0.2; // does not equal 0.1
 ### null and undefined
 * *null* is a value that is not anything
 * *undefined* is not even that...
+
 <br/>
+
 * You can assign a value to be null
 * *undefined* is the default value for variables, parameters, nonexistent members, etc.
-
 ```
 var x;        //undefined
 var y = null; //null
@@ -62,3 +62,8 @@ var y = null; //null
 ```
 var x = 1/0; //NaN
 ```
+
+
+
+
+
