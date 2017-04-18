@@ -1,4 +1,4 @@
-# functions.md
+# functions
 * functions are first-class objects
   * they can be passed, returned, and stored just like any other value
 * Function inherits from Object and can store name/value pairs
